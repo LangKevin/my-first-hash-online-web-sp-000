@@ -7,8 +7,6 @@ def my_hash
   my_hash["porcelain vases"] = 2
   my_hash["oil paintings"] = 3
   return my_hash
-
-
 end
 
 
