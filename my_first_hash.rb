@@ -9,9 +9,9 @@ ef my_hash()
   return your_hash
 end
 
- 
 
-def shipping_manifest 
+
+def shipping_manifest
 
   the_manifest   = {}
 
@@ -22,15 +22,15 @@ def shipping_manifest
   return the_manifest
 end
 
- 
 
-def retrieval 
 
-  return the_manifest ["oil paintings"]  
+def retrieval
+
+  return the_manifest ["oil paintings"]
 
 end
 
- 
+
 
 def adding(the_manifest)
 
@@ -50,14 +50,14 @@ def my_hash
   my_hash["oil paintings"] = 3
   return my_hash
 
-  
+
 end
 
 
 def shipping_manifest
   # set a variable called `the_manifest`, equal to a hash
-  # fill that hash with key/value pairs that describe the following information: 
-  # We have 5 whale bone corsets, 2 porcelain vases and 3 oil paintings 
+  # fill that hash with key/value pairs that describe the following information:
+  # We have 5 whale bone corsets, 2 porcelain vases and 3 oil paintings
   the_manifest  = Hash.new
 
   the_manifest["whale bone corsets"] = 5
@@ -69,19 +69,19 @@ end
 
 def retrieval
   shipping_manifest = {
-                  "whale bone corsets" => 5, 
-                  "porcelain vases" => 2, 
+                  "whale bone corsets" => 5,
+                  "porcelain vases" => 2,
                   "oil paintings" => 3
                  }
 
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
-  return shipping_manifest["oil paintings"]  
+  return shipping_manifest["oil paintings"]
 end
 
 def adding
   shipping_manifest = {
-                  "whale bone corsets" => 5, 
-                  "porcelain vases" => 2, 
+                  "whale bone corsets" => 5,
+                  "porcelain vases" => 2,
                   "oil paintings" => 3
                  }
   # add 2 muskets to the shipping_manifest hash below
