@@ -1,45 +1,3 @@
-ef my_hash()
-
-  your_hash  = Hash.new
-
-  your_hash["whale bone corsets"] = 5
-
-  your_hash["porcelain vases"] = 2
-  your_hash["oil paintings"] = 3
-  return your_hash
-end
-
-
-
-def shipping_manifest
-
-  the_manifest   = {}
-
-  the_manifest  ["whale bone corsets"] = 5
-
-  the_manifest ["porcelain vases"] = 2
-  the_manifest ["oil paintings"] = 3
-  return the_manifest
-end
-
-
-
-def retrieval
-
-  return the_manifest ["oil paintings"]
-
-end
-
-
-
-def adding(the_manifest)
-
-  the_manifest ["muskets"] = 2
- the_manifest ["gun powder"] = 4
-
-  return the_manifest
-
-end
 def my_hash
   # use the literal constructor to set the variable, my_hash, equal to a hash with key/value pairs of your choice.
   my_hash  = Hash.new
@@ -85,6 +43,10 @@ def adding
                   "oil paintings" => 3
                  }
   # add 2 muskets to the shipping_manifest hash below
+  the_manifest["muskets"] = 2
+  the_manifest["gun powder"] = 4
+
+  return the_manifest
 
 
 
